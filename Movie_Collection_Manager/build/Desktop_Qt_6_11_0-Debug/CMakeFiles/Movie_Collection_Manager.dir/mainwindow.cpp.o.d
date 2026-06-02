@@ -391,8 +391,14 @@ CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o: \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qcursor.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qbitmap.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/include/ui_mainwindow.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/QVariant \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/QAction \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QApplication \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qapplication.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcoreapplication.h \
@@ -407,10 +413,59 @@ CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o: \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qinputmethod.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlocale.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication_platform.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QFormLayout \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qformlayout.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QLayout \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qlayout.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qlayoutitem.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QGroupBox \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qgroupbox.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qframe.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QHBoxLayout \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QLabel \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qlabel.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qpicture.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qiodevice.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qtextdocument.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qurl.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QLineEdit \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qlineedit.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qtextcursor.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qtextformat.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qpen.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QListWidget \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qlistwidget.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qlistview.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemview.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qabstractitemmodel.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qitemselectionmodel.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qstyleoption.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractspinbox.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qvalidator.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qregularexpression.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qslider.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractslider.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qstyle.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qtabbar.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qrubberband.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QMainWindow \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QMenu \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmenu.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QMenuBar \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmenubar.h \
- /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmenu.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QStatusBar \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qstatusbar.h \
- /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QVBoxLayout \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QMessageBox \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmessagebox.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qdialog.h \
+ /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qdialogbuttonbox.h

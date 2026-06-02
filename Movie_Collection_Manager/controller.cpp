@@ -58,3 +58,15 @@ void Controller::redo() {
 std::vector<Movie> Controller::getAllMovies() const {
     return repo.getAllMovies();
 }
+
+std::vector<Movie> Controller::filterMovies(const Filter& criteria) const {
+    std::vector<Movie> all = repo.getAllMovies();
+    std::vector<Movie> result;
+
+    for (const auto& movie : all) {
+        if (criteria.isSatisfiedBy(movie)) {
+            result.push_back(movie);
+        }
+    }
+    return result;
+}

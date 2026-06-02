@@ -391,6 +391,11 @@ CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o: \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qcursor.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qbitmap.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QApplication \
  /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qapplication.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcoreapplication.h \
@@ -404,4 +409,5 @@ CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o: \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qinputmethod.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlocale.h \
- /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication_platform.h
+ /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication_platform.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.h

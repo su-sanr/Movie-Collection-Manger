@@ -680,6 +680,12 @@
 			null
 		],
 		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h",
+			"MU",
+			"EWIEGA46WW/moc_concrete_filters.cpp",
+			null
+		],
+		[
 			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h",
 			"MU",
 			"EWIEGA46WW/moc_controller.cpp",
@@ -692,9 +698,21 @@
 			null
 		],
 		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h",
+			"MU",
+			"EWIEGA46WW/moc_filter.cpp",
+			null
+		],
+		[
 			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.h",
 			"MU",
 			"EWIEGA46WW/moc_json_repository.cpp",
+			null
+		],
+		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h",
+			"MU",
+			"EWIEGA46WW/moc_logical_filters.cpp",
 			null
 		],
 		[

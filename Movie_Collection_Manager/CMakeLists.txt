@@ -24,6 +24,9 @@ qt_add_executable(Movie_Collection_Manager
     controller.h
     movie_commands.h
     controller.cpp
+    filter.h
+    concrete_filters.h
+    logical_filters.h
 )
 
 target_link_libraries(Movie_Collection_Manager

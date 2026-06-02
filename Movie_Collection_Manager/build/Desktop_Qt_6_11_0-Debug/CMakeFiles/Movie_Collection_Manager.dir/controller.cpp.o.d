@@ -123,6 +123,7 @@ CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \

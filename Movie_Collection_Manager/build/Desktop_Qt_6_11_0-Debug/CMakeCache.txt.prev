@@ -316,6 +316,9 @@ QT_CREATOR_ENABLE_PACKAGE_MANAGER_SETUP:BOOL=ON
 //Qt Creator source groups extensions
 QT_CREATOR_SOURCE_GROUPS:BOOL=ON
 
+//The directory containing a CMake configuration file for QT.
+QT_DIR:PATH=/home/alex/Qt/6.11.0/gcc_64/lib/cmake/Qt6
+
 //No help, variable specified on the command line.
 QT_ENABLE_QML_DEBUG:BOOL=ON
 
@@ -348,6 +351,9 @@ Qt6Widgets_DIR:PATH=/home/alex/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets
 
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/home/alex/Qt/6.11.0/gcc_64/lib/cmake/Qt6
+
+//The directory containing a CMake configuration file for Qt.
+Qt_DIR:PATH=Qt_DIR-NOTFOUND
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND

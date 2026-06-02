@@ -224,6 +224,30 @@ Movie_Collection_Manager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/Movie_Collection_Manager_autogen/mocs_compilation.cpp.s
 .PHONY : Movie_Collection_Manager_autogen/mocs_compilation.cpp.s
 
+controller.o: controller.cpp.o
+.PHONY : controller.o
+
+# target to build an object file
+controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o
+.PHONY : controller.cpp.o
+
+controller.i: controller.cpp.i
+.PHONY : controller.i
+
+# target to preprocess a source file
+controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.i
+.PHONY : controller.cpp.i
+
+controller.s: controller.cpp.s
+.PHONY : controller.s
+
+# target to generate assembly for a file
+controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.s
+.PHONY : controller.cpp.s
+
 csv_repository.o: csv_repository.cpp.o
 .PHONY : csv_repository.o
 
@@ -247,6 +271,30 @@ csv_repository.s: csv_repository.cpp.s
 csv_repository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.s
 .PHONY : csv_repository.cpp.s
+
+json_repository.o: json_repository.cpp.o
+.PHONY : json_repository.o
+
+# target to build an object file
+json_repository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o
+.PHONY : json_repository.cpp.o
+
+json_repository.i: json_repository.cpp.i
+.PHONY : json_repository.i
+
+# target to preprocess a source file
+json_repository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.i
+.PHONY : json_repository.cpp.i
+
+json_repository.s: json_repository.cpp.s
+.PHONY : json_repository.s
+
+# target to generate assembly for a file
+json_repository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.s
+.PHONY : json_repository.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -338,9 +386,15 @@ help:
 	@echo "... Movie_Collection_Manager_autogen/mocs_compilation.o"
 	@echo "... Movie_Collection_Manager_autogen/mocs_compilation.i"
 	@echo "... Movie_Collection_Manager_autogen/mocs_compilation.s"
+	@echo "... controller.o"
+	@echo "... controller.i"
+	@echo "... controller.s"
 	@echo "... csv_repository.o"
 	@echo "... csv_repository.i"
 	@echo "... csv_repository.s"
+	@echo "... json_repository.o"
+	@echo "... json_repository.i"
+	@echo "... json_repository.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

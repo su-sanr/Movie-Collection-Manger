@@ -139,13 +139,43 @@ CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/csv_repository.cpp -o CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.s
 
+CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o: CMakeFiles/Movie_Collection_Manager.dir/flags.make
+CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o: /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.cpp
+CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o: CMakeFiles/Movie_Collection_Manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o -MF CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o.d -o CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o -c /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.cpp
+
+CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.cpp > CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.i
+
+CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.cpp -o CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.s
+
+CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o: CMakeFiles/Movie_Collection_Manager.dir/flags.make
+CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o: /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.cpp
+CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o: CMakeFiles/Movie_Collection_Manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o -MF CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o.d -o CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o -c /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.cpp
+
+CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.cpp > CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.i
+
+CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.cpp -o CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.s
+
 # Object files for target Movie_Collection_Manager
 Movie_Collection_Manager_OBJECTS = \
 "CMakeFiles/Movie_Collection_Manager.dir/Movie_Collection_Manager_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o" \
 "CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o" \
 "CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o" \
-"CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.o"
+"CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.o" \
+"CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o" \
+"CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o"
 
 # External object files for target Movie_Collection_Manager
 Movie_Collection_Manager_EXTERNAL_OBJECTS =
@@ -155,6 +185,8 @@ Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o
 Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o
 Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o
 Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.o
+Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o
+Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/controller.cpp.o
 Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/build.make
 Movie_Collection_Manager: /home/alex/Qt/6.11.0/gcc_64/lib/libQt6Widgets.so.6.11.0
 Movie_Collection_Manager: /home/alex/Qt/6.11.0/gcc_64/lib/libQt6Gui.so.6.11.0
@@ -162,7 +194,7 @@ Movie_Collection_Manager: /usr/lib/x86_64-linux-gnu/libGLX.so
 Movie_Collection_Manager: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Movie_Collection_Manager: /home/alex/Qt/6.11.0/gcc_64/lib/libQt6Core.so.6.11.0
 Movie_Collection_Manager: CMakeFiles/Movie_Collection_Manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Movie_Collection_Manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Movie_Collection_Manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Movie_Collection_Manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

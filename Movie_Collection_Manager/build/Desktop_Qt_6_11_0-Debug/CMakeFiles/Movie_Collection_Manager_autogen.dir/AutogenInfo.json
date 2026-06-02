@@ -738,6 +738,12 @@
 			"MU",
 			"EWIEGA46WW/moc_repository.cpp",
 			null
+		],
+		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/tests.h",
+			"MU",
+			"EWIEGA46WW/moc_tests.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -825,6 +831,11 @@
 		],
 		[
 			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/tests.cpp",
 			"MU",
 			null
 		]

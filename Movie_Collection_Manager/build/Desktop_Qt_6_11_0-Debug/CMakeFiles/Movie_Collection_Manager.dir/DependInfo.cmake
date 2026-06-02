@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/main.cpp" "CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o" "gcc" "CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o.d"
   "/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.cpp" "CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o.d"
   "/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.cpp" "CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o" "gcc" "CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o.d"
+  "/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/tests.cpp" "CMakeFiles/Movie_Collection_Manager.dir/tests.cpp.o" "gcc" "CMakeFiles/Movie_Collection_Manager.dir/tests.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

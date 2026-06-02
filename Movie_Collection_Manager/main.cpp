@@ -2,17 +2,15 @@
 #include <QApplication>
 #include "json_repository.h"
 #include "controller.h"
+#include "tests.h" // <--- Include the test header
 
 int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
+    runAllTests();
 
-    // 1. Boot up the backend
+    QApplication a(argc, argv);
     JsonMovieRepository repo("movies.json");
     Controller controller(repo);
-
-    // 2. Pass the backend to the visual window
     MainWindow w(controller);
     w.show();
-
     return a.exec();
 }

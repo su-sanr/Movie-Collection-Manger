@@ -412,4 +412,5 @@ CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o: \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qinputmethod.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlocale.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication_platform.h \
- /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.h
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/tests.h

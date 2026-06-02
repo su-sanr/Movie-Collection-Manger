@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o.d"
   "CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o"
   "CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o.d"
+  "CMakeFiles/Movie_Collection_Manager.dir/tests.cpp.o"
+  "CMakeFiles/Movie_Collection_Manager.dir/tests.cpp.o.d"
   "Movie_Collection_Manager"
   "Movie_Collection_Manager.pdb"
 )

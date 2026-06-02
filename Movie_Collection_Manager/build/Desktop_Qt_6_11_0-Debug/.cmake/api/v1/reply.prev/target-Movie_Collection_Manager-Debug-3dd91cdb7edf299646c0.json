@@ -74,13 +74,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 38,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 32,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
@@ -323,11 +323,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Movie_Collection_Manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Movie_Collection_Manager_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Movie_Collection_Manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Movie_Collection_Manager::@6890427a1f51a3e7e1df",
@@ -407,8 +407,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				19,
-				20
+				20,
+				21
 			]
 		},
 		{
@@ -437,7 +437,8 @@
 				14,
 				16,
 				17,
-				18
+				18,
+				19
 			]
 		},
 		{
@@ -451,7 +452,7 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				21
+				22
 			]
 		}
 	],
@@ -558,6 +559,11 @@
 		{
 			"backtrace" : 4,
 			"path" : "logical_filters.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "tests.h",
 			"sourceGroupIndex" : 2
 		},
 		{

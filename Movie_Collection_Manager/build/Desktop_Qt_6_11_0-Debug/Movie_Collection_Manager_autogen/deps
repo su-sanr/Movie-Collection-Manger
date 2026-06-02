@@ -23,6 +23,8 @@ Movie_Collection_Manager_autogen/timestamp: \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie_commands.h \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
+	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/tests.cpp \
+	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/tests.h \
 	/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q17memory.h \
 	/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20bit.h \
 	/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20functional.h \

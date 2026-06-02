@@ -1,0 +1,14 @@
+[
+    {
+        "genre": "Action",
+        "title": "Test Movie 1",
+        "trailerUrl": "url1_new",
+        "year": 2022
+    },
+    {
+        "genre": "Comedy",
+        "title": "Test Movie 2",
+        "trailerUrl": "url2",
+        "year": 2021
+    }
+]

@@ -27,6 +27,8 @@ qt_add_executable(Movie_Collection_Manager
     filter.h
     concrete_filters.h
     logical_filters.h
+    tests.h
+    tests.cpp
 )
 
 target_link_libraries(Movie_Collection_Manager

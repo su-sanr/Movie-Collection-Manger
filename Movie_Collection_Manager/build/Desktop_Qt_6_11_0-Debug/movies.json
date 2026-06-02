@@ -1,8 +1,14 @@
 [
     {
-        "genre": "Sci-FI",
+        "genre": "Sci-Fi",
         "title": "Inception",
-        "trailerUrl": "youtube.com/inception",
+        "trailerUrl": "youtube.com",
         "year": 2010
+    },
+    {
+        "genre": "Adventure",
+        "title": "Fire Force",
+        "trailerUrl": "Youtyv",
+        "year": 2026
     }
 ]

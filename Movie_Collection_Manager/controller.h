@@ -11,7 +11,6 @@ private:
 
     std::vector<std::unique_ptr<Command>> undoStack;
     std::vector<std::unique_ptr<Command>> redoStack;
-    std::vector<Movie> filterMovies(const Filter& criteria) const;
 
 public:
     explicit Controller(Repository& repo);
@@ -24,4 +23,5 @@ public:
     void redo();
 
     std::vector<Movie> getAllMovies() const;
+    std::vector<Movie> filterMovies(const Filter& criteria) const;
 };

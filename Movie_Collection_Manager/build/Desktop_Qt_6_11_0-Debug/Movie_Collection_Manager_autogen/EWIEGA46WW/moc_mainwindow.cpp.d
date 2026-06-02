@@ -1,8 +1,10 @@
 /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/moc_predefs.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
   /home/alex/Qt/6.11.0/gcc_64/include/QtCore/q17memory.h \

@@ -397,6 +397,8 @@ CMakeFiles/Movie_Collection_Manager.dir/Movie_Collection_Manager_autogen/mocs_co
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/EWIEGA46WW/../../../../movie.h \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/EWIEGA46WW/../../../../command.h \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/EWIEGA46WW/../../../../filter.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/EWIEGA46WW/../../../../concrete_filters.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/EWIEGA46WW/../../../../logical_filters.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtmochelpers.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtmocconstants.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20algorithm.h

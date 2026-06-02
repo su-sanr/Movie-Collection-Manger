@@ -32,8 +32,18 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QVBoxLayout *verticalLayout_2;
+    QVBoxLayout *verticalLayout_3;
     QListWidget *movieListWidget;
+    QGroupBox *groupBox_2;
+    QVBoxLayout *verticalLayout_2;
+    QFormLayout *formLayout_2;
+    QLabel *label_5;
+    QLineEdit *filterGenreInput;
+    QLineEdit *filterYearInput;
+    QLabel *label_6;
+    QHBoxLayout *horizontalLayout_2;
+    QPushButton *filterButton;
+    QPushButton *clearFilterButton;
     QGroupBox *groupBox;
     QVBoxLayout *verticalLayout;
     QFormLayout *formLayout;
@@ -62,12 +72,59 @@ public:
         MainWindow->resize(857, 565);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        verticalLayout_2 = new QVBoxLayout(centralwidget);
-        verticalLayout_2->setObjectName("verticalLayout_2");
+        verticalLayout_3 = new QVBoxLayout(centralwidget);
+        verticalLayout_3->setObjectName("verticalLayout_3");
         movieListWidget = new QListWidget(centralwidget);
         movieListWidget->setObjectName("movieListWidget");
 
-        verticalLayout_2->addWidget(movieListWidget);
+        verticalLayout_3->addWidget(movieListWidget);
+
+        groupBox_2 = new QGroupBox(centralwidget);
+        groupBox_2->setObjectName("groupBox_2");
+        verticalLayout_2 = new QVBoxLayout(groupBox_2);
+        verticalLayout_2->setObjectName("verticalLayout_2");
+        formLayout_2 = new QFormLayout();
+        formLayout_2->setObjectName("formLayout_2");
+        label_5 = new QLabel(groupBox_2);
+        label_5->setObjectName("label_5");
+
+        formLayout_2->setWidget(0, QFormLayout::ItemRole::LabelRole, label_5);
+
+        filterGenreInput = new QLineEdit(groupBox_2);
+        filterGenreInput->setObjectName("filterGenreInput");
+
+        formLayout_2->setWidget(0, QFormLayout::ItemRole::FieldRole, filterGenreInput);
+
+        filterYearInput = new QLineEdit(groupBox_2);
+        filterYearInput->setObjectName("filterYearInput");
+
+        formLayout_2->setWidget(1, QFormLayout::ItemRole::FieldRole, filterYearInput);
+
+        label_6 = new QLabel(groupBox_2);
+        label_6->setObjectName("label_6");
+
+        formLayout_2->setWidget(1, QFormLayout::ItemRole::LabelRole, label_6);
+
+
+        verticalLayout_2->addLayout(formLayout_2);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName("horizontalLayout_2");
+        filterButton = new QPushButton(groupBox_2);
+        filterButton->setObjectName("filterButton");
+
+        horizontalLayout_2->addWidget(filterButton);
+
+        clearFilterButton = new QPushButton(groupBox_2);
+        clearFilterButton->setObjectName("clearFilterButton");
+
+        horizontalLayout_2->addWidget(clearFilterButton);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_2);
+
+
+        verticalLayout_3->addWidget(groupBox_2);
 
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName("groupBox");
@@ -149,7 +206,7 @@ public:
         verticalLayout->addLayout(horizontalLayout);
 
 
-        verticalLayout_2->addWidget(groupBox);
+        verticalLayout_3->addWidget(groupBox);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -172,6 +229,11 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "Filters", nullptr));
+        label_5->setText(QCoreApplication::translate("MainWindow", "Genre", nullptr));
+        label_6->setText(QCoreApplication::translate("MainWindow", "Year", nullptr));
+        filterButton->setText(QCoreApplication::translate("MainWindow", "Filter", nullptr));
+        clearFilterButton->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
         groupBox->setTitle(QCoreApplication::translate("MainWindow", "Movie Details", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Title", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Genre", nullptr));

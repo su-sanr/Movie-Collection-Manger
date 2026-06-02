@@ -396,6 +396,8 @@ CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o: \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h \
+ /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h \
  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/include/ui_mainwindow.h \
  /home/alex/Qt/6.11.0/gcc_64/include/QtCore/QVariant \
  /home/alex/Qt/6.11.0/gcc_64/include/QtGui/QAction \

@@ -3,8 +3,10 @@
 
 CMakeFiles/Movie_Collection_Manager.dir/Movie_Collection_Manager_autogen/mocs_compilation.cpp.o: Movie_Collection_Manager_autogen/mocs_compilation.cpp \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
@@ -1331,9 +1333,11 @@ CMakeFiles/Movie_Collection_Manager.dir/json_repository.cpp.o: /home/alex/Docume
 
 CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o: /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/main.cpp \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/json_repository.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
@@ -1799,8 +1803,10 @@ CMakeFiles/Movie_Collection_Manager.dir/main.cpp.o: /home/alex/Documents/hw/oop/
 CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.o: /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.cpp \
   Movie_Collection_Manager_autogen/include/ui_mainwindow.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/command.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h \
+  /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
   /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
@@ -2528,8 +2534,6 @@ CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o: /home/alex/Documents/hw/oop
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcoreapplication.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qabstracteventdispatcher.h:
-
 /usr/include/libintl.h:
 
 /usr/include/c++/13/codecvt:
@@ -2796,11 +2800,7 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/vector:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmessagebox.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmainwindow.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
+/usr/include/c++/13/unordered_set:
 
 /usr/include/limits.h:
 
@@ -2815,12 +2815,6 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 /usr/include/c++/13/bits/sstream.tcc:
 
 /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/controller.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QGroupBox:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QMainWindow:
-
-/usr/include/c++/13/ext/atomicity.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
@@ -2920,10 +2914,6 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtypes.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtconfiginclude.h:
-
 /usr/include/c++/13/bits/shared_ptr_base.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qdatastream.h:
@@ -2935,6 +2925,14 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qregion.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlogging.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QGroupBox:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QMainWindow:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
 
@@ -3012,39 +3010,11 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/tr1/gamma.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20iterator.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtGui/qpaintdevice.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qobject.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcheckedint_impl.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtdeprecationmarkers.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qalloc.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtGui/qimage.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcompare.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlist.h:
-
-/usr/include/c++/13/bits/fs_dir.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qpoint.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qalgorithms.h:
-
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qbytearray.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qscopedpointer.h:
-
-/usr/include/c++/13/functional:
+/usr/include/c++/13/ext/concurrence.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstdlibdetection.h:
 
@@ -3066,11 +3036,41 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qpixmap.h:
 
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qalgorithms.h:
+
+/usr/include/c++/13/bits/fs_dir.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qpoint.h:
+
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qassert.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtGui/QAction:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/q23utility.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QLabel:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qbasicatomic.h:
+
+/usr/include/c++/13/streambuf:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstring.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlatin1stringview.h:
+
+/usr/include/c++/13/ratio:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtGui/qtgui-config.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qshareddata.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtdeprecationmarkers.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qalloc.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcheckedint_impl.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qdebug.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcomparehelpers.h:
 
@@ -3082,9 +3082,25 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qarraydatapointer.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtconfiginclude.h:
 
-/usr/include/c++/13/bits/parse_numbers.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtypes.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qabstracteventdispatcher.h:
+
+/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/concrete_filters.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/c++/13/new:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qhashfunctions.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qforeach.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlist.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qwindowdefs.h:
 
@@ -3092,11 +3108,27 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/bits/requires_hosted.h:
 
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtdeprecationdefinitions.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstringlist.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qnamespace.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qarraydatapointer.h:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qpalette.h:
 
 /usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qvarlengtharray.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtmochelpers.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstringalgorithms.h:
 
@@ -3112,29 +3144,21 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/cstdio:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtdeprecationdefinitions.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstringlist.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qnamespace.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstring.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qlatin1stringview.h:
-
-/usr/include/c++/13/ratio:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtGui/qtgui-config.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qshareddata.h:
-
-/usr/include/c++/13/streambuf:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qdebug.h:
-
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qxptype_traits.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20iterator.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qbytearray.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qscopedpointer.h:
+
+/usr/include/c++/13/functional:
+
+/usr/include/c++/13/bits/unique_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtGui/qpaintdevice.h:
 
 /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/filter.h:
 
@@ -3154,18 +3178,6 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/list:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractspinbox.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/QVariant:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcontainertools_impl.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20bit.h:
-
 /usr/include/stdio.h:
 
 /usr/include/c++/13/bits/hash_bytes.h:
@@ -3176,23 +3188,21 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtGui/qimage.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qtmochelpers.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcompare.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qvarlengtharray.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QLabel:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q20bit.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qbasicatomic.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractspinbox.h:
 
-/usr/include/c++/13/stdlib.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/QVariant:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qshareddata_impl.h:
-
-/usr/include/alloca.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcontainertools_impl.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qutf8stringview.h:
 
@@ -3234,19 +3244,15 @@ Movie_Collection_Manager_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qobject_impl.h:
+
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qmath.h:
+
 /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgets-config.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qgenericatomic.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qforeach.h:
-
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qhashfunctions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/c++/13/new:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtGui/qrgba64.h:
 
@@ -3288,13 +3294,17 @@ Movie_Collection_Manager_autogen/mocs_compilation.cpp:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qnumeric.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qobject.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmessagebox.h:
 
-/usr/include/c++/13/ext/concurrence.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/qmainwindow.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qmath.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter.h:
 
-/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qobject_impl.h:
+/home/alex/Qt/6.11.0/gcc_64/include/QtCore/qshareddata_impl.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/13/stdlib.h:
 
 /home/alex/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget:
 
@@ -3430,6 +3440,12 @@ Movie_Collection_Manager_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/utility:
+
+/usr/include/c++/13/bits/invoke.h:
+
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/c++/13/bits/list.tcc:
@@ -3475,6 +3491,8 @@ Movie_Collection_Manager_autogen/mocs_compilation.cpp:
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qcontainerinfo.h:
 
 /usr/include/c++/13/debug/assertions.h:
+
+/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/logical_filters.h:
 
 /usr/include/c++/13/bits/specfun.h:
 
@@ -3631,11 +3649,3 @@ Movie_Collection_Manager_autogen/mocs_compilation.cpp:
 /home/alex/Qt/6.11.0/gcc_64/include/QtCore/qbytearrayalgorithms.h:
 
 /usr/include/c++/13/unordered_map:
-
-/usr/include/c++/13/unordered_set:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/c++/13/utility:

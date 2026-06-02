@@ -6,9 +6,11 @@ Movie_Collection_Manager_autogen/timestamp: \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager_autogen/moc_predefs.h \
+	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/cvs_repository.h \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/main.cpp \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.cpp \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.h \
+	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.cpp \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/movie.h \
 	/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/repository.h \
 	/home/alex/Qt/6.11.0/gcc_64/include/QtCore/q17memory.h \

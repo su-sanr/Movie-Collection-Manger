@@ -224,6 +224,30 @@ Movie_Collection_Manager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/Movie_Collection_Manager_autogen/mocs_compilation.cpp.s
 .PHONY : Movie_Collection_Manager_autogen/mocs_compilation.cpp.s
 
+csv_repository.o: csv_repository.cpp.o
+.PHONY : csv_repository.o
+
+# target to build an object file
+csv_repository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.o
+.PHONY : csv_repository.cpp.o
+
+csv_repository.i: csv_repository.cpp.i
+.PHONY : csv_repository.i
+
+# target to preprocess a source file
+csv_repository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.i
+.PHONY : csv_repository.cpp.i
+
+csv_repository.s: csv_repository.cpp.s
+.PHONY : csv_repository.s
+
+# target to generate assembly for a file
+csv_repository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/csv_repository.cpp.s
+.PHONY : csv_repository.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -314,6 +338,9 @@ help:
 	@echo "... Movie_Collection_Manager_autogen/mocs_compilation.o"
 	@echo "... Movie_Collection_Manager_autogen/mocs_compilation.i"
 	@echo "... Movie_Collection_Manager_autogen/mocs_compilation.s"
+	@echo "... csv_repository.o"
+	@echo "... csv_repository.i"
+	@echo "... csv_repository.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

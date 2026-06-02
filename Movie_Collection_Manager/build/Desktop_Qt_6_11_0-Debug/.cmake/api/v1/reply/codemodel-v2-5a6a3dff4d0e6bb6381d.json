@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-35b917e55d36222c48c5.json",
+					"jsonFile" : "directory-.-Debug-f72837ae2b070e871577.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Movie_Collection_Manager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Movie_Collection_Manager-Debug-18c391e29fc6fb83413a.json",
+					"jsonFile" : "target-Movie_Collection_Manager-Debug-ddf5b1d28fb14ba32286.json",
 					"name" : "Movie_Collection_Manager",
 					"projectIndex" : 0
 				},

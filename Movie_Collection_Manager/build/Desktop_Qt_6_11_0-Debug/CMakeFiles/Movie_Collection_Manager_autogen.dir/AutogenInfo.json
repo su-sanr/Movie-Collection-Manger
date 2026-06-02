@@ -534,6 +534,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/csv_repository.h",
+			"MU",
+			"EWIEGA46WW/moc_csv_repository.cpp",
+			null
+		],
+		[
 			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -610,6 +616,11 @@
 	"SETTINGS_FILE" : "/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/Movie_Collection_Manager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/csv_repository.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/main.cpp",
 			"MU",

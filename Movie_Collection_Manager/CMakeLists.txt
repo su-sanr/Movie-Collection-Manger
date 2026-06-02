@@ -14,6 +14,8 @@ qt_add_executable(Movie_Collection_Manager
     movie.h
     repository.h
     movie.cpp
+    csv_repository.h
+    csv_repository.cpp
 )
 
 target_link_libraries(Movie_Collection_Manager

@@ -272,6 +272,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+movie.o: movie.cpp.o
+.PHONY : movie.o
+
+# target to build an object file
+movie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.o
+.PHONY : movie.cpp.o
+
+movie.i: movie.cpp.i
+.PHONY : movie.i
+
+# target to preprocess a source file
+movie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.i
+.PHONY : movie.cpp.i
+
+movie.s: movie.cpp.s
+.PHONY : movie.s
+
+# target to generate assembly for a file
+movie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Movie_Collection_Manager.dir/build.make CMakeFiles/Movie_Collection_Manager.dir/movie.cpp.s
+.PHONY : movie.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +320,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... movie.o"
+	@echo "... movie.i"
+	@echo "... movie.s"
 .PHONY : help
 
 

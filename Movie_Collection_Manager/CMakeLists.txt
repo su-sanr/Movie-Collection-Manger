@@ -11,6 +11,9 @@ qt_add_executable(Movie_Collection_Manager
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    movie.h
+    repository.h
+    movie.cpp
 )
 
 target_link_libraries(Movie_Collection_Manager

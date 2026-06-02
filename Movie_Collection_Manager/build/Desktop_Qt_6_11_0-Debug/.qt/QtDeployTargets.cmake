@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Movie_Collection_Manager_FILE /home/alex/Documents/hw/oop/Project/Movie_Collection_Manager/build/Desktop_Qt_6_11_0-Debug/Movie_Collection_Manager)
+set(__QT_DEPLOY_TARGET_Movie_Collection_Manager_TYPE EXECUTABLE)

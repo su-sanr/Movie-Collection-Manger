@@ -1,0 +1,6 @@
+#Qt build folders
+build-*/
+*.pro.user
+*.o
+*.obj
+*.exe
